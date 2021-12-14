@@ -1,0 +1,50 @@
+body {
+	font-size: $base-size;
+    line-height: $base-line-height;
+	background: $dark;
+	letter-spacing: $base-spacing;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 400;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+.space1 {
+	padding-top: 1rem;
+}
+
+.space2 {
+	padding-top: 1.5rem;
+}
+
+.space3 {
+	padding-top: 2rem;
+}
+
+.space4 {
+	padding-top: 2.5rem;
+}
+
+.lwest {
+	padding: 2rem;
+	margin: auto 2rem;
+	margin-top: 10%;
+	background: $light;
+}
+
+.table {
+	margin: 0.5rem;
+}
+
+.block {
+	display: block;
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Combined Shape</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ui/components/ico/calendar" transform="translate(-12.000000, -12.000000)" fill="#c5c5d5">
+            <path d="M18,12 L18,14 L22,14 L22,12 L24,12 L24,14 L27,14 L27,14 C27.5522847,14 28,14.4477153 28,15 L28,25 L28,25 C28,25.5128358 27.6139598,25.9355072 27.1166211,25.9932723 L27,26 L27,26 L13,26 L13,26 C12.4477153,26 12,25.5522847 12,25 L12,15 C12,14.4477153 12.4477153,14 13,14 L16,14 L16,12 L18,12 Z M26,16 L14,16 L14,24 L26,24 L26,16 Z M19,17 L19,23 L15,23 L15,17 L19,17 Z M25,17 L25,23 L21,23 L21,17 L25,17 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

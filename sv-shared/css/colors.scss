@@ -1,0 +1,130 @@
+$primary: #1f42a2; // PRIMARY
+$primary-sub1: #7287c3; // PRIMARY SUB COLOR
+$primary-sub2: #9eacd4; // PRIMARY SUB COLOR
+$primary-sub3: #c8cfe4; // PRIMARY SUB COLOR
+
+$success: #2ba026; // SUCCESS
+$success-sub1: #51A94D; // SUCCESS SUB COLOR
+$success-sub2: #7ac072; // SUCCESS SUB COLOR
+$success-sub3: #a3d29e; // SUCCESS SUB COLOR
+$success-sub4: #cae2c9; // SUCCESS SUB COLOR
+
+$secondary: #86868a; // SECONDARY
+$secondary-sub1: #b1b1b4; // SECONDARY SUB COLOR
+$secondary-sub2: #dcdcdf; // SECONDARY SUB COLOR
+$secondary-sub3: #f2f2f5; // SECONDARY SUB COLOR
+
+$danger: #d9000d; // DANGER
+$danger-sub1: #e26062; // DANGER SUB COLOR
+$danger-sub2: #e99293; // DANGER SUB COLOR
+$danger-sub3: #eec2c4; // DANGER SUB COLOR
+
+$warning: #ffd835; // WARNING
+$warning-sub1: #f4de6c; // WARNING SUB COLOR
+$warning-sub2: #f8e893; // WARNING SUB COLOR
+$warning-sub3: #f5edc4; // WARNING SUB COLOR
+
+$orange: #FF7F00; // ORANGE COLOR
+$purple: #7B00C7; // PURPLE COLOR
+$dark: #1d1d20; // DARK
+$dark-sub1: #2E2F31; // DARK SUB COLOR
+$dark-sub2: #18181A; // DARK SUB COLOR
+$dark-sub3: #FFFFFF29; // DARK SUB COLOR
+$dark-sub4: #2e2e30; // DARK SUB COLOR
+
+$black: #000000; // BLACK
+$light: #f2f2f5; // LIGHT
+$white: #ffffff; // WHITE
+
+$gray1: #6d7278;
+$gray2: #e3e3ea;
+$gray3: #f0f4f8;
+$gray4: #dcdcdf;
+$gray5: #b1b1b4;
+$gray6: #86868a;
+
+$colors: ('primary',
+		  'primary-sub1',
+		  'primary-sub2',
+		  'primary-sub3',
+		  'success',
+		  'success-sub1',
+		  'success-sub2',
+		  'success-sub3',
+		  'success-sub4',
+		  'secondary',
+		  'secondary-sub1',
+		  'secondary-sub2',
+		  'secondary-sub3',
+		  'danger',
+		  'damger-sub1',
+		  'danger-sub2',
+		  'danger-sub3',
+		  'warning',
+		  'warning-sub1',
+		  'warning-sub2',
+		  'warning-sub3',
+		  'dark',
+		  'dark-sub1',
+		  'dark-sub2',
+		  'dark-sub3',
+		  'dark-sub4',
+		  'orange',
+		  'purple',
+		  'black',
+		  'light',
+		  'white',
+		  'gray1',
+		  'gray2',
+		  'gray3',
+		  'gray4',
+		  'gray5',
+		  'gray6');
+
+html {
+	--primary: #1f42a2; // PRIMARY
+	--primary-sub1: #7287c3; // PRIMARY SUB COLOR
+	--primary-sub2: #9eacd4; // PRIMARY SUB COLOR
+	--primary-sub3: #c8cfe4; // PRIMARY SUB COLOR
+	
+	--success: #2ba026; // SUCCESS
+	--success-sub1: #51A94D; // SUCCESS SUB COLOR
+	--success-sub2: #7ac072; // SUCCESS SUB COLOR
+	--success-sub3: #a3d29e; // SUCCESS SUB COLOR
+	--success-sub4: #cae2c9; // SUCCESS SUB COLOR
+	
+	--secondary: #86868a; // SECONDARY
+	--secondary-sub1: #b1b1b4; // SECONDARY SUB COLOR
+	--secondary-sub2: #dcdcdf; // SECONDARY SUB COLOR
+	--secondary-sub3: #f2f2f5; // SECONDARY SUB COLOR
+	
+	--danger: #d9000d; // DANGER
+	--danger-sub1: #e26062; // DANGER SUB COLOR
+	--danger-sub2: #e99293; // DANGER SUB COLOR
+	--danger-sub3: #eec2c4; // DANGER SUB COLOR
+	
+	--warning: #ffd835; // WARNING
+	--warning-sub1: #f4de6c; // WARNING SUB COLOR
+	--warning-sub2: #f8e893; // WARNING SUB COLOR
+	--warning-sub3: #f5edc4; // WARNING SUB COLOR
+	
+	--orange: #FF7F00; // ORANGE COLOR
+	--purple: #7B00C7; // PURPLE COLOR
+	--dark: #1d1d20; // DARK
+	--dark-sub1: #2E2F31; // DARK SUB COLOR
+	--dark-sub2: #18181A; // DARK SUB COLOR
+	--dark-sub3: #FFFFFF29; // DARK SUB COLOR
+	--dark-sub4: #2e2e30; // DARK SUB COLOR
+
+	--black: #000000; // BLACK
+	--light: #f2f2f5; // LIGHT
+	--white: #ffffff; // WHITE
+	
+	--gray1: #6d7278;
+	--gray2: #e3e3ea;
+	--gray3: #f0f4f8;
+	--gray4: #dcdcdf;
+	--gray5: #b1b1b4;
+	--gray6: #86868a;
+	
+}

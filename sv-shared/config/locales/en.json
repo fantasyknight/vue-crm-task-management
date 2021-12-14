@@ -1,0 +1,9 @@
+{   
+    "files": "Files", 
+    "folders": "Folders",
+    "message": "Message",
+    "login": {
+      "username": "User Name",
+      "password": "Password"
+    }
+  }

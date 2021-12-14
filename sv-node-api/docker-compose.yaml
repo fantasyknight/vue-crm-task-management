@@ -1,0 +1,38 @@
+version: "3.8"
+
+services:
+  mysqldb:
+    container_name: bib-db
+    image: mysql
+    restart: always
+    env_file: ./.env
+    environment:
+      MYSQL_ROOT_PASSWORD: $DATABASE_PASSWORD
+      MYSQL_DATABASE: $DATABASE_NAME
+    ports:
+      - 3306:3306
+    volumes:
+      - db-config:/etc/mysql
+      - db-data:/var/lib/mysql
+      - ./db/backup/files/:/data_backup/data
+
+  app:
+    container_name: bib-pm-backend
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: bib-pm-app
+    env_file: ./.env
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/home/app/bib-pm-backend
+      - /home/app/bib-pm-backend/node_modules
+    depends_on:
+      - mysqldb
+    stdin_open: true
+    tty: true
+
+volumes:
+  db-config:
+  db-data:

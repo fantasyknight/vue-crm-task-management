@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ui/components/ico/view" transform="translate(-12.000000, -14.000000)" fill="#1D1D20">
+            <g id="Group" transform="translate(12.000000, 14.000000)">
+                <rect id="Rectangle" x="0" y="0" width="16" height="2" rx="1"></rect>
+                <rect id="Rectangle-Copy" x="0" y="0" width="2" height="12" rx="1"></rect>
+                <rect id="Rectangle-Copy-3" x="14" y="0" width="2" height="12" rx="1"></rect>
+                <path d="M7.78077641,0 L10.7192236,0 C11.2715083,-1.01453063e-16 11.7192236,0.44771525 11.7192236,1 C11.7192236,1.08176181 11.7091962,1.16321502 11.6893661,1.24253563 L9.18936609,11.2425356 C9.07807434,11.6877026 8.67809124,12 8.21922359,12 L5.28077641,12 C4.72849166,12 4.28077641,11.5522847 4.28077641,11 C4.28077641,10.9182382 4.29080376,10.836785 4.31063391,10.7574644 L6.81063391,0.757464375 C6.92192566,0.312297374 7.32190876,-2.67296841e-17 7.78077641,0 Z" id="Rectangle-Copy-4"></path>
+                <rect id="Rectangle-Copy-2" x="0" y="10" width="16" height="2" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

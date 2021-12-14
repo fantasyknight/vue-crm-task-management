@@ -1,0 +1,27 @@
+@mixin scrollbars($size, $color-thumb, $color-track: mix($color-thumb, $white, 50%)) {
+  /** Chrome **/
+  &::-webkit-scrollbar {
+    width: $size;
+    height: $size;
+  }
+
+  /** Firefox **/
+  @-moz-document url-prefix() {
+    scrollbar-width: thin;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: $color-track;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $color-thumb;
+    border-width: $size;
+  }
+
+  /** IE **/
+  & {
+    scrollbar-track-color: $color-track;
+    scrollbar-face-color: $color-thumb;
+  }
+}

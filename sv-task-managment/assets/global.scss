@@ -1,0 +1,195 @@
+body {
+    font-family: 'Lato';
+}
+
+.sidebar select,
+.sidebar input {
+  font-size: 14px;
+}
+
+// basic tags
+a {
+  display: inline-block;
+  color: $secondary;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    color: $secondary;
+  }
+}
+
+ul {
+    list-style: none;
+}
+
+// layout
+.container {
+  display: flex;
+  padding: 0 1.5rem;
+  flex-wrap: wrap;
+}
+
+
+/** layout **/
+.row {
+	display: flex;
+	margin: 0 -.5rem;
+}
+
+[class*='col'] {
+	padding: 0 .5rem;
+}
+
+@for $i from 1 through 12 {
+    .col-#{$i} { 
+		max-width: #{ math.div(round(math.div(100%, 12) * $i * 10000), 10000) }; 
+		flex: 0 0 #{ math.div(round(math.div(100%, 12) * $i * 10000), 10000) }; 
+	}
+}
+
+
+#__layout {
+  .main {
+    width: 100%;
+    transition: width .2s;
+  
+    &.open-sidebar {
+      width: calc(100% - #{$sidebar-width});
+    }
+  }
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.side-panel {
+  transform: translateX(100%);
+  transition: transform .2s;
+}
+
+.open-sidebar .side-panel {
+  transform: translateX(0);
+}
+
+// task bundle
+.task-bundle {
+  display: flex;
+  padding-left: 0;
+  background-color: $gray3;
+  border: 1px solid $gray4;
+}
+
+.tasks:not(.list) {
+  &:not(:first-of-type) {
+    border-top: none;
+  }
+
+  &:last-of-type:not(:first-of-type) {
+    border-bottom: none;
+  }
+}
+
+.padding-sm .task-item {
+  padding: 0 10px;
+}
+
+.divider {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background-color: $gray6;
+}
+
+.bundle-title {
+  padding: 10px 16px;
+  font-size: 13px;
+
+  span {
+    margin-left: 14px;
+  }
+}
+
+.task-item {
+  display: flex;
+  position: relative;
+  padding: 10px;
+  font-size: 13px;
+  border-right: 1px solid $gray4;
+  align-items: center;
+
+  &.task-name {
+    width: 28%;
+  }
+
+  &.task-number {
+    width: 30px;
+    padding: 10px 11px;
+  }
+
+  &.task-status,
+  &.task-priority,
+  &.task-assignee,
+  &.task-date {
+    width: 16%;
+  }
+
+  .custom-control-label::before {
+    left: 8px;
+  }
+
+  .custom-checkbox svg {
+    left: 10px;
+  }
+}
+
+// colors
+.bg-red {
+  background: $red;
+}
+
+.bg-green {
+  background: $green;
+}
+
+.bg-orange {
+  background: $orange;
+}
+
+.bg-blue {
+  background: $blue;
+}
+
+.text-red {
+  color: $red;
+}
+
+.text-orange {
+  color: $orange;
+}
+
+.text-green {
+  color: $green;
+}
+
+.text-blue {
+  color: $blue;
+}
+
+.side-panel .wrapper select {
+    line-height: 2;
+}
+
+// margin
+.m-0 {
+  margin: 0 !important;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
